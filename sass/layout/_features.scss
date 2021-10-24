@@ -2,7 +2,7 @@
     width: 1170;
     padding-bottom: 47px;
   }
-  .feature-title {
+  .feature__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -12,7 +12,7 @@
     margin-bottom: 10px;
   }
   
-  .feature-text {
+  .feature__text {
     font-size: 14px;
     line-height: 1.71;
     /* or 171% */
@@ -20,17 +20,17 @@
     color: var(--secondary-text-color);
   }
   
-  .feature-list {
+  .feature__list {
     display: flex;
     margin-left: -30px;
   }
-  .feature-item {
+  .feature__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     display: block;
   }
   
-  .feature-icon-bg {
+  .feature__iconbg {
     width: 270px;
     height: 120px;
     background-color: var(--grey-bg-color);

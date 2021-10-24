@@ -1,8 +1,7 @@
 .work {
     padding-top: 47px;
   }
-  .work-title {
-    /*display: flex;*/
+  .work__title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -12,16 +11,16 @@
     margin: 0 auto;
     margin-bottom: 50px;
   }
-  .work-list {
+  .work__list {
     display: flex;
     margin-left: -30px;
   }
-  .work-item {
+  .work__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     position: relative;
   }
-  .work-img-subtitle {
+  .work__subtitle {
     position: absolute;
     left: 0;
     bottom: 0;
